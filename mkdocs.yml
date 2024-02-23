@@ -23,11 +23,14 @@ theme:
         name: 亮色模式
   language: zh
   features:
+    - header.autohide
     - content.code.copy
-    # - navigation.tabs
-    - navigation.expand
+    - navigation.tabs
     - navigation.top
-    # - navigation.sections
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    
   icon:
     repo: fontawesome/brands/git-alt
     
