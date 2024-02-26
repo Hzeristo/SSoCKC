@@ -25,17 +25,23 @@ theme:
   features:
     - header.autohide
     - content.code.copy
+    - navigation.indexes
     - navigation.tabs
     - navigation.top
     - navigation.sections
     - navigation.path
-    - navigation.indexes
+  
     
   icon:
     repo: fontawesome/brands/git-alt
     
 plugins:
   - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Hzeristo/SSoCKC
 
 markdown_extensions:
   - admonition
@@ -63,9 +69,52 @@ extra_javascript:
 
 nav:
   - 主页: index.md
-  - 档案:
-    - 新闻稿: 
-      - archive/article/article.md 
-    - 策划案: 
-      - archive/plan/plan.md
+  - 档案: 
+    - archive/index.md
+    - 宣传品:
+      - archive/advertise/index.md
+      - 海报: 
+        - archive/advertise/poster/index.md
+      - PPT:
+        - 第十期竺林论道: archive/advertise/ppt/第十期竺林论道.md
+      - 手卡&投屏&邀请函&其他:
+        - archive/advertise/media/index.md
+        - 邀请函:
+          - 金城专访: archive/advertise/media/invitation/金城专访.md
+    - 新闻稿&发言稿: 
+      - archive/article/index.md
+      - 专业推文&院友资讯: 
+        - archive/article/varied/index.md
+      - 院友专访: 
+        - archive/article/visit/index.md
+      - 预热推文&总结推文:
+        - archive/article/activity/index.md
+        - 第45期竺山论剑总结推文: archive/article/activity/第45期竺山论剑总结推文.md
+      - 发言稿:
+        - archive/article/speech/index.md
+        - 第九期竺林论道: archive/article/speech/第九期竺林论道.md
+    - 策划案:
+      - archive/plan/index.md 
+      - 竺山论剑:
+        - archive/plan/forum/index.md
+      - 竺林论道:
+        - archive/plan/salon/index.md
+      - 其他:
+        - archive/plan/varied/index.md
+        - 2024跨年夜: archive/plan/varied/2024跨年夜.md
+    - 手册&指南:
+      - archive/info/index.md
+      - 工作手册: 
+        - archive/info/manual/index.md
+    - 材料:
+      - 费用&报销: 
+        - archive/material/expense/expense.md
+  - 活动回顾: 
+    - activity/index.md
+    - 院友专访: 
+      - activity/visit/index.md
+    - 竺山论剑: 
+      - activity/forum/index.md
+    - 竺林论道: 
+      - activity/salon/index.md
   - 关于: about.md
