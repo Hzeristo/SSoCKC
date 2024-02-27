@@ -65,56 +65,51 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - javascripts/tex-mml-chtml.js
-  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
   - 主页: index.md
   - 档案: 
     - archive/index.md
-    - 宣传品:
-      - archive/advertise/index.md
+    - 宣传品&物料:
       - 海报: 
         - archive/advertise/poster/index.md
       - PPT:
-        - 第十期竺林论道: archive/advertise/ppt/第十期竺林论道.md
-      - 手卡&投屏&邀请函&其他:
-        - archive/advertise/media/index.md
-        - 邀请函:
+        - 第10期竺林论道: archive/advertise/ppt/第十期竺林论道.md
+      - 邀请函:
           - 金城专访: archive/advertise/media/invitation/金城专访.md
-    - 新闻稿&发言稿: 
-      - archive/article/index.md
-      - 专业推文&院友资讯: 
-        - archive/article/varied/index.md
-      - 院友专访: 
-        - archive/article/visit/index.md
-      - 预热推文&总结推文:
-        - archive/article/activity/index.md
-        - 第45期竺山论剑总结推文: archive/article/activity/第45期竺山论剑总结推文.md
       - 发言稿:
-        - archive/article/speech/index.md
-        - 第九期竺林论道: archive/article/speech/第九期竺林论道.md
+        - 第9期竺林论道: archive/advertise/speech/第九期竺林论道.md
+      - 手卡&投屏&其他: archive/advertise/varied/soon.md
+    - 新闻稿: 
+      - 专业推文&院友资讯: 
+        - 2023~2024专业推文: archive/article/varied/2023~2024年度专业推文.md
+      - 院友专访: 
+        - 金城: archive/article/visit/金城.md
+      - 预热推文&总结推文:
+        - 第45期竺山论剑总结推文: archive/article/activity/第45期竺山论剑总结推文.md
     - 策划案:
-      - archive/plan/index.md 
       - 竺山论剑:
-        - archive/plan/forum/index.md
+        - 第45期竺山论剑: archive/plan/forum/第45期竺山论剑.md
       - 竺林论道:
-        - archive/plan/salon/index.md
+        - 第9期竺林论道: archive/plan/salon/第9期竺林论道.md
+        - 第10期竺林论道: archive/plan/salon/第10期竺林论道.md
       - 其他:
-        - archive/plan/varied/index.md
         - 2024跨年夜: archive/plan/varied/2024跨年夜.md
     - 手册&指南:
-      - archive/info/index.md
       - 工作手册: 
         - archive/info/manual/index.md
     - 材料:
       - 费用&报销: 
         - archive/material/expense/expense.md
   - 活动回顾: 
-    - activity/index.md
     - 院友专访: 
-      - activity/visit/index.md
+      - activity/visit/金城/金城.md
     - 竺山论剑: 
-      - activity/forum/index.md
+      - activity/forum/45th/第45期竺山论剑.md
     - 竺林论道: 
-      - activity/salon/index.md
+      - activity/salon/9th/第9期竺林论道.md
+    - 其他活动:
+      - activity/varied/2024y/2024跨年夜.md
+  - 院友资料:
+    - alumni/index.md
   - 关于: about.md

@@ -29,14 +29,12 @@
     </style>
 </head>
 <body>
+    <h1>　　　</h1>
     <div class = "logo">
-        <img src="../assets/logo2.png" alt="Logo">
+        <img src="assets/logo2.png" alt="Logo">
     </div>
     <div class = "intro">
-        <span>这里是竺可桢学院院友会秘书处线上档案</span>
-    </div>
-    <div class = "centered">
-        <span><del>前端雇人做吧</del></span>
+        <span>这里是竺可桢学院院友会秘书处办公主页</span>
     </div>
     <div class = "centered">
         <span><del>咱们自己的logo呢</del></span>
@@ -45,10 +43,10 @@
         <span>这里是正文部分，之后会加上介绍文案</span>
     </div>
     <h2>使用须知</h2>
-        TODO
+        1. 由于Android原生webView不支持阅览pdf文件，所以目前Android端部分文件可能需要下载查看。pdf图片化正稳步推进。
     <h2>维护指南</h2>
         TODO
     <div class = "version">
-        <span>当前版本：0.2.0</span>
+        <span>当前版本：0.3.0</span>
     </div>
 </body>
