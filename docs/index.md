@@ -44,9 +44,9 @@
     </div>
     <h2>快速导航</h2>
     <div class = "normal">
-        <p>团在浙大：http://tzzd.zju.edu.cn/</p>
-        <p>场地预约（启真平台）：https://qzonline.zju.edu.cn/hom/uni/?code=ST-40869831-Cieh3RzdlW3bgbKbGsmV-zju.edu.cn#/home</p>
-        <p>素拓网：http://www.youth.zju.edu.cn/sztz/</p>
+        <p>团在浙大：<a href="http://tzzd.zju.edu.cn/">http://tzzd.zju.edu.cn/</a></p>
+        <p>场地预约（启真平台）：<a href="https://qzonline.zju.edu.cn/hom/uni#/home">https://qzonline.zju.edu.cn/hom/uni#/home</a></p>
+        <p>素拓网：<a href="http://www.youth.zju.edu.cn/sztz/">http://www.youth.zju.edu.cn/sztz/</a></p>
     </div>
     <h2>使用须知</h2>
         1. 由于Android原生webView不支持阅览pdf文件，所以目前Android端部分文件可能需要下载查看。pdf图片化正稳步推进。
