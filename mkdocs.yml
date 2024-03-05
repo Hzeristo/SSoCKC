@@ -62,9 +62,7 @@ markdown_extensions:
       generic: true
 
 extra_javascript:
-  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - javascripts/tex-mml-chtml.js
 
 nav:
   - 主页: index.md
@@ -72,13 +70,20 @@ nav:
     - archive/index.md
     - 宣传品&物料:
       - 海报: 
-        - archive/advertise/poster/index.md
+        - 纳新: archive/advertise/poster/纳新.md
+        - 竺山论剑: archive/advertise/poster/竺山论剑.md
+        - 竺林论道: archive/advertise/poster/竺林论道.md
+        - 跨年夜: archive/advertise/poster/跨年夜.md
       - PPT:
-        - 第10期竺林论道: archive/advertise/ppt/第十期竺林论道.md
+        - 竺林论道: archive/advertise/ppt/竺林论道.md
+        - 竺山论剑: archive/advertise/ppt/竺山论剑.md
       - 邀请函:
-          - 金城专访: archive/advertise/media/invitation/金城专访.md
+          - 金城/蔡建永/刘翰青/潘哲君/赵行: archive/advertise/invitation/金城-同模板.md
       - 发言稿:
-        - 第9期竺林论道: archive/advertise/speech/第九期竺林论道.md
+        - 第9期竺林论道: archive/advertise/speech/第9期竺林论道.md
+        - 第11期竺林论道: archive/advertise/speech/第11期竺林论道.md
+        - 第45期竺山论剑: archive/advertise/speech/第45期竺山论剑.md
+        - 第46期竺山论剑: archive/advertise/speech/第46期竺山论剑.md
       - 手卡&投屏&其他: archive/advertise/varied/soon.md
     - 新闻稿: 
       - 专业推文&院友资讯: 
@@ -90,9 +95,11 @@ nav:
     - 策划案:
       - 竺山论剑:
         - 第45期竺山论剑: archive/plan/forum/第45期竺山论剑.md
+        - 第46期竺山论剑: archive/plan/forum/第46期竺山论剑.md
       - 竺林论道:
         - 第9期竺林论道: archive/plan/salon/第9期竺林论道.md
         - 第10期竺林论道: archive/plan/salon/第10期竺林论道.md
+        - 第11期竺林论道: archive/plan/salon/第11期竺林论道.md
       - 其他:
         - 2024跨年夜: archive/plan/varied/2024跨年夜.md
     - 手册&指南:
