@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .text {
+      width: 30%; 
+      margin-bottom: 10px; /* 添加底部外边距，在小屏幕上产生间隔 */
+      border: 1px solid #ccc; 
+      padding: 10px;
+      background-size: cover;
+      background-position: 10% 10%;
+    }
+
+    .text:last-child {
+      margin-right: 0;
+    }
+
+    @media (max-width: 600px) {
+      /* 在小屏幕上改变布局 */
+      .container {
+        flex-direction: column; /* 将主轴方向改为列布局 */
+      }
+
+      .text {
+        width: 100%; /* 让每个框占满整个宽度 */
+        margin-right: 0; /* 移除右边外边距 */
+        background-image: url('./images/s2.jpg');
+      }
+    }
+  </style>
+  <title>并排显示三段文字</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="text">
+    <p>第一段文字内容</p>
+    <p>第一段文字内容</p>
+    <p>第一段文字内容</p>
+    <p>第一段文字内容</p>
+    <p>第一段文字内容</p>
+    <p>第一段文字内容</p>
+    <p>第一段文字内容</p>
+    <p>第一段文字内容</p>
+  </div>
+  
+  <div class="text">
+    <p>第二段文字内容</p>
+  </div>
+
+  <div class="text">
+    <p>第三段文字内容</p>
+  </div>
+</div>
+
+</body>
+</html>
