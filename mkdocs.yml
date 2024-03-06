@@ -105,9 +105,13 @@ nav:
     - 手册&指南:
       - 工作手册: 
         - archive/info/manual/index.md
+      - 活动指南:
+        - archive/info/instructions/大型活动指南.md
     - 材料:
       - 费用&报销: 
         - archive/material/expense/expense.md
+      - 设计组件:
+        - archive/material/widget/index.md
   - 活动回顾: 
     - 院友专访: 
       - activity/visit/金城/金城.md
@@ -119,4 +123,11 @@ nav:
       - activity/varied/2024y/2024跨年夜.md
   - 院友资料:
     - alumni/index.md
-  - 关于: about.md
+  - 管理: 
+    - 使用指南: help.md
+    - 维护须知: edit.md
+    - 关于: about.md
+    - 免责声明: disclaimer.html
+
+copyright: Copyright &copy; 2024 宋瑞泽 All Rights Reserved.
+
