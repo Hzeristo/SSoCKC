@@ -118,7 +118,7 @@
 
 
 <div style = "margin-top: 100px;text-align: right;font-size: 12px;">
-    <p>当前版本：0.5.5</p>
+    <p>当前版本：0.5.6</p>
 </div>
 
 
