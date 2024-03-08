@@ -1,67 +1,5 @@
+<link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
 <h1></h1>
-
-<style>
-    .main{
-      width: 70%;
-      text-align: center;
-    }
-    .container {
-      display: flex;
-      justify-content: space-between;
-    }
-    .text {
-      width: 30%;
-      margin-right: 10px;
-      border: 1px solid #ccc;
-      padding: 10px;
-      background-size: cover;
-      background-position: 10% 10%;
-    }
-    .textsub {
-      padding: 10px;
-      margin-top: 10px;
-      background-color: rgba(255, 99, 45, 0.5);
-      color: #000000;
-    }
-    .logo {
-      max-width: 10%;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-    }
-    .intro {
-      margin-top: 20px;
-      font-size: 28px;
-      text-align: center;
-    }
-    .token {
-      font-weight: bold;
-      color: #000000;
-    }
-    .adaptive-block {
-      width: calc(100% - 10px);
-      padding: 10px; 
-      margin-top: 20px;
-      border: 1px solid #ccc;
-      box-sizing: border-box; 
-    }
-    @media (max-width: 600px) {
-      .container {
-        flex-direction: column; 
-      }
-      .text {
-        width: 100%; 
-        margin-bottom: 10px; 
-      }
-      .main {
-        width: 100%;
-        text-align: center;
-      }
-      .adaptive-block {
-        width: 100%;
-      }
-    }
-</style>
 
 <div class = "logo">
     <img src="./assets/logo2.png">
@@ -118,7 +56,7 @@
 
 
 <div style = "margin-top: 100px;text-align: right;font-size: 12px;">
-    <p>当前版本：0.5.6</p>
+    <p>当前版本：0.5.7</p>
 </div>
 
 
