@@ -9,6 +9,12 @@ theme:
   logo: assets/logo1.png
   name: material
   palette:
+    - media: "(prefers-color-scheme)"
+
+      primary: ckc_red
+      toggle:
+        icon: material/weather-night
+        name: 暗色模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: ckc_red
@@ -43,6 +49,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Hzeristo/SSoCKC
 
+extra_javascript:
+  - '/assets/js/daynight.js'
+  - '/assets/js/hideContentButton.js'
+
 markdown_extensions:
   - admonition
   - md_in_html
@@ -61,47 +71,45 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
-extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-
 nav:
   - 主页: index.md
+  - 当前活动: current/index.md
   - 档案: 
     - archive/index.md
     - 宣传品&物料:
       - 海报: 
-        - 纳新: archive/advertise/poster/纳新.md
-        - 竺山论剑: archive/advertise/poster/竺山论剑.md
-        - 竺林论道: archive/advertise/poster/竺林论道.md
-        - 跨年夜: archive/advertise/poster/跨年夜.md
+        - 纳新海报: archive/advertise/poster/纳新.md
+        - 竺山论剑海报: archive/advertise/poster/竺山论剑.md
+        - 竺林论道海报: archive/advertise/poster/竺林论道.md
+        - 跨年夜海报: archive/advertise/poster/跨年夜.md
       - PPT:
-        - 竺林论道: archive/advertise/ppt/竺林论道.md
-        - 竺山论剑: archive/advertise/ppt/竺山论剑.md
+        - 竺林论道PPT: archive/advertise/ppt/竺林论道.md
+        - 竺山论剑PPT: archive/advertise/ppt/竺山论剑.md
       - 邀请函:
-          - 金城/蔡建永/刘翰青/潘哲君/赵行: archive/advertise/invitation/金城-同模板.md
+        - 金城/蔡建永/刘翰青/潘哲君/赵行: archive/advertise/invitation/金城-同模板.md
       - 发言稿:
-        - 第9期竺林论道: archive/advertise/speech/第9期竺林论道.md
-        - 第11期竺林论道: archive/advertise/speech/第11期竺林论道.md
-        - 第45期竺山论剑: archive/advertise/speech/第45期竺山论剑.md
-        - 第46期竺山论剑: archive/advertise/speech/第46期竺山论剑.md
+        - 第9期竺林论道发言稿: archive/advertise/speech/第9期竺林论道.md
+        - 第11期竺林论道发言稿: archive/advertise/speech/第11期竺林论道.md
+        - 第45期竺山论剑发言稿: archive/advertise/speech/第45期竺山论剑.md
+        - 第46期竺山论剑发言稿: archive/advertise/speech/第46期竺山论剑.md
       - 手卡&投屏&其他: archive/advertise/varied/soon.md
     - 新闻稿: 
       - 专业推文&院友资讯: 
         - 2023~2024专业推文: archive/article/varied/2023~2024年度专业推文.md
       - 院友专访: 
-        - 金城: archive/article/visit/金城.md
+        - 金城专访: archive/article/visit/金城.md
       - 预热推文&总结推文:
         - 第45期竺山论剑总结推文: archive/article/activity/第45期竺山论剑总结推文.md
     - 策划案:
       - 竺山论剑:
-        - 第45期竺山论剑: archive/plan/forum/第45期竺山论剑.md
-        - 第46期竺山论剑: archive/plan/forum/第46期竺山论剑.md
+        - 第45期竺山论剑策划案: archive/plan/forum/第45期竺山论剑.md
+        - 第46期竺山论剑策划案: archive/plan/forum/第46期竺山论剑.md
       - 竺林论道:
-        - 第9期竺林论道: archive/plan/salon/第9期竺林论道.md
-        - 第10期竺林论道: archive/plan/salon/第10期竺林论道.md
-        - 第11期竺林论道: archive/plan/salon/第11期竺林论道.md
+        - 第9期竺林论道策划案: archive/plan/salon/第9期竺林论道.md
+        - 第10期竺林论道策划案: archive/plan/salon/第10期竺林论道.md
+        - 第11期竺林论道策划案: archive/plan/salon/第11期竺林论道.md
       - 其他:
-        - 2024跨年夜: archive/plan/varied/2024跨年夜.md
+        - 2024跨年夜策划案: archive/plan/varied/2024跨年夜.md
     - 手册&指南:
       - 工作手册: 
         - archive/info/manual/index.md
@@ -112,6 +120,8 @@ nav:
         - archive/material/expense/expense.md
       - 设计组件:
         - archive/material/widget/index.md
+      - 工作分统计:
+        - archive/material/score/index.md
   - 活动回顾: 
     - 院友专访: 
       - activity/visit/金城/金城.md
