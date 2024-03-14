@@ -1,0 +1,12 @@
+{
+    "current_activity":
+    {
+        "name": "null",
+        "slogan": "null",
+        "people": "null，null", 
+        "time": "null",
+        "location": "null"
+    },
+    "version": "0.6.0",
+    "debug": "debugText"
+}

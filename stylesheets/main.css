@@ -1,12 +1,10 @@
-    .main{
-      width: 70%;
-      text-align: center;
-    }
-    .container {
+
+    .main-container {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 20px;
     }
-    .text {
+    .main-container-text {
       width: 30%;
       margin-right: 10px;
       border: 1px solid #ccc;
@@ -14,49 +12,87 @@
       background-size: cover;
       background-position: 10% 10%;
     }
-    .textsub {
+    .main-container-text-right {
+      width: 30%;
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-size: cover;
+      background-position: 10% 10%;
+    }
+    .main__container__textsub {
       padding: 10px;
       margin-top: 10px;
-      background-color: rgba(255, 99, 45, 0.5);
-      color: #000000;
+      background-color: #c3262e6c;
     }
-    .logo {
+    .main-logo {
       max-width: 10%;
       height: auto;
       display: block;
       margin: 0 auto;
     }
-    .intro {
+    .index__intro {
       margin-top: 20px;
       font-size: 28px;
       text-align: center;
     }
-    .token {
+    .text__token {
       font-weight: bold;
-      color: #000000;
     }
-    .adaptive-block {
-      width: calc(100% - 10px);
+    .main-adaptive-block {
+      width: 100%;
       padding: 10px; 
       margin-top: 20px;
-      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      border: 1px solid #cccccc;
       box-sizing: border-box; 
       background-size: cover;
       background-position: 10% 10%;
     }
+    .string__urlData {
+      font-size: 16px;
+    }
+    .button-test {
+      font-size: 10px;
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      border-radius: 2px;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .button-test:hover {opacity: 0.5}
+    .button-day {
+      font-size: 8px;
+      background-color: #ffffff;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .button-day:hover {opacity: 0.5}
+    .button-show {
+      font-size: 10px;
+      padding: 5px;
+      background-color: #cccccc;
+      border: 1px solid #cccccc;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .button-show:hover {opacity: 0.5}
     @media (max-width: 600px) {
-      .container {
+      .main-container {
         flex-direction: column; 
       }
-      .text {
+      .main-container-text {
         width: 100%; 
         margin-bottom: 10px; 
       }
-      .main {
-        width: 100%;
-        text-align: center;
+      .main-container-text-right {
+        width: 100%; 
+        margin-bottom: 10px; 
       }
-      .adaptive-block {
+      .main-adaptive-block {
         width: 100%;
       }
     }
