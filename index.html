@@ -2761,8 +2761,9 @@
     <p>当前版本：0.6.0</p>
 </div>
 
-<script>  
-    fetch('/currentState.json')
+<script>
+//更新活动信息
+    fetch('/assets/currentState.json')
         .then(response => response.json())
         .then(jsonData => {
             const currentActivity = jsonData.current_activity;
@@ -2851,10 +2852,6 @@
     
     
       <script src="assets/javascripts/bundle.8fd75fb4.min.js"></script>
-      
-        <script src="/assets/js/daynight.js"></script>
-      
-        <script src="/assets/js/hideContentButton.js"></script>
       
     
   </body>
