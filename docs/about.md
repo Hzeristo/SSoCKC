@@ -5,7 +5,7 @@
 </div>
 
 <div style = "text-align: center;">
-    <span><del>“关于”页面怎么写，在线等</del></span>
+    <span><del>“关于”页面怎么写，在线等 (add)“关于”页面怎么写，在线等</del></span>
 </div>
 <div class = "index__intro__small" id = "index_version">
 </div>
