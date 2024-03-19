@@ -50,8 +50,7 @@ extra:
       link: https://github.com/Hzeristo/SSoCKC
 
 extra_javascript:
-  - '/assets/js/daynight.js'
-  - '/assets/js/hideContentButton.js'
+  - javascripts/extra.js
 
 markdown_extensions:
   - admonition
@@ -133,12 +132,8 @@ nav:
       - activity/varied/2024y/2024跨年夜.md
   - 院友资料:
     - alumni/index.md
-  - 管理: 
-    - 使用指南: help.md
-    - 维护须知: edit.md
-    - 关于: about.md
-    - 免责声明: disclaimer.html
-    - 设计组件: assets/disp/show.md
+  - 设计组件:
+    - assets/disp/show.md
+
 
 copyright: Copyright &copy; 2024 宋瑞泽 All Rights Reserved.
-
