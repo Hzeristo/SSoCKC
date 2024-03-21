@@ -19,7 +19,7 @@ function toggleVisibility(contentId, ButtonId, eyeButtonId, eyeSlashButtonId) {
 }
 
 function versionUpdate() {
-    fetch('/info.html')
+    fetch('https://hzeristo.github.io/SSoCKC/info.html')
     .then(response => {
         if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -43,7 +43,7 @@ function versionUpdate() {
 
 function currentActivityUpdate()
 {
-    fetch('/info.html')
+    fetch('https://hzeristo.github.io/SSoCKC/info.html')
     .then(response => {
         if (!response.ok) {
         throw new Error('Network response was not ok');
