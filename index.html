@@ -514,6 +514,8 @@
       
         
       
+        
+      
     
     
       
@@ -995,6 +997,27 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/advertise/varied/postcard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    明信片
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1937,7 +1960,7 @@
         
   
   <span class="md-ellipsis">
-    相关材料
+    Expense
   </span>
   
 
@@ -1989,7 +2012,7 @@
               
   
   <span class="md-ellipsis">
-    设计组件
+    排版要求
   </span>
   
 
@@ -2000,7 +2023,7 @@
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_6_2">
             <span class="md-nav__icon md-icon"></span>
-            设计组件
+            排版要求
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2605,10 +2628,19 @@
 <script src = "https://hzeristo.github.io/SSoCKC/javascripts/extra.js"></script>
 <h1></h1>
 <div class = "main-logo"><img src="./assets/logo2.png"></div>
-<div class = "index__intro">这里是院友会秘书处办公主页</div>
-
+<div class = "index__intro">这里是竺可桢学院院友会秘书处办公主页</div>
 <div class="main-adaptive-block">
-  <p><div class = "text__token"><img src = "./assets/icon/rocket-takeoff.svg" alt = "icon"> 最新活动：</div></p>
+  <div class="main__container__line">
+    <div class = "text__token"><img src = "./assets/icon/rocket-takeoff.svg" alt = "icon"> 最新活动：</div>
+    <button class="button__show"id = "editButton">编辑</button>
+    <div id="editModal" class="modal">
+      <div class="modal__content">
+        <div class = "main__container__line">
+          <div><a href = "https://github.com/Hzeristo/SSoCKC/blob/main/docs/info.html">前往GitHub编辑</a></div>
+        </div>       
+      </div>
+    </div>  
+  </div>
   <div class = "main__container__textsub">
     <p><span class = "text__token"> 活动名称：</span><span class = "string__Data" id = "string1"></span></p>
     <p><span class = "text__token"> 活动slogan：</span><span class = "string__Data" id = "string2"></span></p>
@@ -2619,24 +2651,32 @@
 <div class="main-container" id = "container1">
   <div class="main-container-text" id = "container1-text1">
     <p><div class = "text__token"><img src = "./assets/icon/arrow-up-right-square.svg" alt = "icon"> 活动主页:</div></p>
-    <p><div class = "text__token"><img src = "./assets/icon/person-up.svg" alt = "icon"><a href = ""> 院友专访</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/person-up.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/activity/visit/%E9%87%91%E5%9F%8E/%E9%87%91%E5%9F%8E/"> 院友专访</a></div></p>
     <p><div class = "text__token"><img src = "./assets/icon/chat-dots.svg" alt = "icon"><a href = ""> 竺林论道</a></div></p>
-    <p><div class = "text__token"><img src = "./assets/icon/people.svg" alt = "icon"><a href = ""> 竺山论剑</a></div></p>
-    <p><div class = "text__token"><img src = "./assets/icon/cup-hot.svg" alt = "icon"><a href = ""><a href = ""> 院友面对面</a></div></p>
-    <p><div class = "text__token"><img src = "./assets/icon/mortarboard-fill.svg" alt = "icon"><a href = ""> 竺影芳华</a></div></p>
-    <p><div class = "text__token"><img src = "./assets/icon/house-add.svg" alt = "icon"><a href = ""> 纳新/跨年夜</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/people.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/activity/forum/45th/%E7%AC%AC45%E6%9C%9F%E7%AB%BA%E5%B1%B1%E8%AE%BA%E5%89%91/"> 竺山论剑</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/cup-hot.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/activity/varied/2024y/2024%E8%B7%A8%E5%B9%B4%E5%A4%9C/"> 院友面对面</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/mortarboard-fill.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/activity/varied/2024y/2024%E8%B7%A8%E5%B9%B4%E5%A4%9C/"> 竺影芳华</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/house-add.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/activity/varied/2024y/2024%E8%B7%A8%E5%B9%B4%E5%A4%9C/"> 纳新/跨年夜</a></div></p>
   </div>
   <div class="main-container-text" id = "container1-text2">
-    <p><div class = "text__token"><img src = "./assets/icon/arrow-up-right-square.svg" alt = "icon"> 快速访问：</div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/arrow-up-right-square.svg" alt = "icon"> 快速档案：</div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/person-up.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/archive/info/manual/"> 工作手册</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/person-up.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/archive/info/instructions/%E5%A4%A7%E5%9E%8B%E6%B4%BB%E5%8A%A8%E6%8C%87%E5%8D%97/"> 活动指南</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/person-up.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/archive/material/expense/expense/"> 报销模板</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/person-up.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/archive/material/widget/"> 排版要求</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/person-up.svg" alt = "icon"><a href = "https://hzeristo.github.io/SSoCKC/archive/advertise/varied/postcard/"> 明信片</a></div></p>
   </div>
   <div class="main-container-text-right" id = "container1-text3">
     <p><div class = "text__token"><img src = "./assets/icon/arrow-up-right-square.svg" alt = "icon"> 院友资料：</div></p>
+    （暂无）
     <p><div class = "text__token"><a href = ""></a></div></p>
   </div>
 </div>
 <div class="main-container" id = "container2">
   <div class="main-container-text" id = "container1-text4">
     <p><div class = "text__token"><img src = "./assets/icon/box.svg" alt = "icon"> 设计组件：</div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/arrow-up-right-square.svg" alt = "icon"><a href="https://hzeristo.github.io/SSoCKC/assets/disp/show/"> 邀请函模板</a></div></p>
+    <p><div class = "text__token"><img src = "./assets/icon/arrow-up-right-square.svg" alt = "icon"><a href="https://hzeristo.github.io/SSoCKC/assets/disp/show/"> 主页元素</a></div></p>
   </div>
   <div class="main-container-text" id = "container1-text5">
     <p><div class = "text__token"><img src = "./assets/icon/arrow-up-right-square.svg" alt = "icon"> 页面管理：</div></p>
@@ -2649,12 +2689,13 @@
     <p><div class = "text__token"><img src = "./assets/icon/arrow-up-right-square.svg" alt = "icon"> 网址导航：</div></p>
     <p><a href="http://tzzd.zju.edu.cn/">团在浙大</a></p>
     <p><a href="https://qzonline.zju.edu.cn/hom/uni#/home">场地预约（启真平台）</a></p>
-    <p><a href="http://www.youth.zju.edu.cn/sztz/">未定义链接</a></p>
+    <p><a href="https://xiumi.us/#/">秀米主页</a></p>
+    <p><a href="https://www.wjx.cn/">问卷星</a></p>
     <p>　</p> <!--注意是全角空格-->
-    <p>　</p>
     <p>　</p>
   </div>
 </div>
+
 <div class = "main-adaptive-block">这里是正文部分，之后会加上介绍文案</div>
 
 <details class="info">
@@ -2671,6 +2712,7 @@
 <script>
   versionUpdate();
   currentActivityUpdate();
+  editModal("editButton", "editModal");
 </script>
 
 

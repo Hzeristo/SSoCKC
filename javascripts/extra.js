@@ -18,6 +18,19 @@ function toggleVisibility(contentId, ButtonId, eyeButtonId, eyeSlashButtonId) {
     });
 }
 
+function editModal(ButtonId, ModalId) {
+    const openModalBtn = document.getElementById(ButtonId);
+    const modal = document.getElementById(ModalId);
+    openModalBtn.addEventListener('click', () => {
+        modal.style.display = 'block';
+    });
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+}
+
 function versionUpdate() {
     fetch('https://hzeristo.github.io/SSoCKC/info.html')
     .then(response => {

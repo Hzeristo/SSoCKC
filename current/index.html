@@ -518,6 +518,8 @@
       
         
       
+        
+      
     
     
       
@@ -999,6 +1001,27 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../archive/advertise/varied/postcard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    明信片
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1941,7 +1964,7 @@
         
   
   <span class="md-ellipsis">
-    相关材料
+    Expense
   </span>
   
 
@@ -1993,7 +2016,7 @@
               
   
   <span class="md-ellipsis">
-    设计组件
+    排版要求
   </span>
   
 
@@ -2004,7 +2027,7 @@
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_6_2">
             <span class="md-nav__icon md-icon"></span>
-            设计组件
+            排版要求
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2614,18 +2637,29 @@
 <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<div class = "main-adaptive-block" style = "backgruond-image: url('/assets/background/qiu.png')"><div class = "text__token"> 活动信息：</div>
-    <p><span class = "text__token"> 活动名称：</span><span class = "string__Data" id = "string1"></span></p>
-    <p><span class = "text__token"> 活动slogan：</span><span class = "string__Data" id = "string2"></span></p>
-    <p><span class = "text__token"> 活动嘉宾：</span><span class = "string__Data" id = "string3"></span></p>
-    <p><span class = "text__token"> 活动时间，地点：</span><span class = "string__Data" id = "string4"></span></p>
+<div class = "main-adaptive-block" style = "backgruond-image: url('/assets/background/qiu.png')">
+  <div class="main__container__line">
+    <div class = "text__token">活动信息：</div>
+    <button class="button__show" id = "editButton">编辑</button>
+    <div id="editModal" class="modal">
+      <div class="modal__content">
+        <div class = "main__container__line">
+          <div><a href = "https://github.com/Hzeristo/SSoCKC/blob/main/docs/info.html">前往GitHub编辑</a></div>
+        </div>       
+      </div>
+    </div> 
+  </div>
+  <p><span class = "text__token"> 活动名称：</span><span class = "string__Data" id = "string1"></span></p>
+  <p><span class = "text__token"> 活动slogan：</span><span class = "string__Data" id = "string2"></span></p>
+  <p><span class = "text__token"> 活动嘉宾：</span><span class = "string__Data" id = "string3"></span></p>
+  <p><span class = "text__token"> 活动时间，地点：</span><span class = "string__Data" id = "string4"></span></p>
 </div>
 <div class = "main-adaptive-block" >
-  <div class = "text__token"> 策划案  <button type = "button" class = "button-show" id = "planButton"><img src = "../assets/icon/eye.svg" alt = "icon" id = "pBon"><img src = "../assets/icon/eye-slash.svg" alt = "icon" id = "pBoff" style = "display:none;"></button></div>
+  <div class = "text__token"> 策划案  <button type = "button" class = "button__show" id = "planButton"><img src = "../assets/icon/eye.svg" alt = "icon" id = "pBon"><img src = "../assets/icon/eye-slash.svg" alt = "icon" id = "pBoff" style = "display:none;"></button></div>
   <p><!-- 在这里嵌入在线工作表 --><iframe width = 100% height ="1200px" frameborder="0" id = "plan" style = "display:none;"></iframe></p>
 </div>
 <div class = "main-adaptive-block" >
-  <div class = "text__token"> 分锅表 <button class = "button-show" id = "taskButton"><img src = "../assets/icon/eye.svg" alt = "icon" id = "tBon"><img src = "../assets/icon/eye-slash.svg" alt = "icon" id = "tBoff" style = "display:none;"></button></div>
+  <div class = "text__token"> 分锅表 <button class = "button__show" id = "taskButton"><img src = "../assets/icon/eye.svg" alt = "icon" id = "tBon"><img src = "../assets/icon/eye-slash.svg" alt = "icon" id = "tBoff" style = "display:none;"></button></div>
   <p><!-- 在这里嵌入在线工作表 --><iframe width = 100% height ="1200px" frameborder="0" id = "task" style = "display:none;"></iframe></p>
 </div>
 
@@ -2642,6 +2676,7 @@
     toggleVisibility("plan", "planButton", "pBon", "pBoff");
     toggleVisibility("task", "taskButton", "tBon", "tBoff");
     currentActivityUpdate();
+    editModal("editButton", "editModal");
 </script>
 
 
