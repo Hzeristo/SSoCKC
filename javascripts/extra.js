@@ -44,7 +44,7 @@ function versionUpdate() {
     const htmlDocument = parser.parseFromString(htmlContent, 'text/html');
     const versionDiv = htmlDocument.getElementById('version');
     if (versionDiv) {
-        document.getElementById('index_version').textContent = "当前版本：" + versionDiv.textContent;
+        document.getElementById('index_version').textContent = versionDiv.textContent;
     } else {
         console.error('Target div not found.');
     }
